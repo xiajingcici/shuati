@@ -11,6 +11,9 @@ public class CC1005 {
 		if(strs[mid].isEmpty()){
 			int left=mid-1,right=mid+1;
 			while(true){
+				if(left<first&&right>last){
+					return -1;
+				}
 			}
 		}
 		
